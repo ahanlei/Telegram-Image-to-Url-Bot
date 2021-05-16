@@ -16,7 +16,13 @@ async def getimage(client, message):
     img_path = os.path.join(tmp, str(uuid.uuid4()) + ".jpg")
     dwn = await message.reply_text("Uploading to my server and analyzing...", True)
     img_path = await client.download_media(message=message, file_name=img_path)
-    await dwn.edit_text("Sending as telegra.ph link...")
+    await dwn.edit_text("ETA: > sec[░░░░░░              ]")
+    await dwn.edit_text("ETA: > sec[░░░░░░░░░░░░        ]")
+    await dwn.edit_text("ETA: > sec[░░░░░░░░░░░░░░░░░░░░]")
+    await dwn.edit_text("Sending...")
+    
+    
+
     try:
         response = upload_file(img_path)
     except Exception as e:
@@ -27,7 +33,7 @@ async def getimage(client, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Open Link", url=f"https://telegra.ph{response[0]}"),
                                             InlineKeyboardButton(text="Share Link", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}"),
-                                            InlineKeyboardButton(text="Group Link", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}")
+                                            InlineKeyboardButton(text="Group Link", url=f"https://t.me/vrtxmusic")
                                             ]])
     )
     shutil.rmtree(tmp, ignore_errors=True)
