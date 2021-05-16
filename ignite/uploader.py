@@ -16,7 +16,7 @@ async def getimage(client, message):
     img_path = os.path.join(tmp, str(uuid.uuid4()) + ".jpg")
     dwn = await message.reply_text("Uploading to my server and analyzing...", True)
     img_path = await client.download_media(message=message, file_name=img_path)
-    await dwn.edit_text("Uploading as telegra.ph link...")
+    await dwn.edit_text("Sending as telegra.ph link...")
     try:
         response = upload_file(img_path)
     except Exception as e:
