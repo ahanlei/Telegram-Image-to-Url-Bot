@@ -7,6 +7,13 @@
 
 
 
+* ----------- How to deploy?
+- Firsly get you BOT_TOKEN from @botfather [FATHER](https://t.me/BotFather)
+- Then get the API_ID & API_HASH from from [HERE](https://my.telegram.org/apps)
+- Now press the deploy button and deploy your bot or use the main bot [@vrtxurl_bot](https://t.me/vrtxurl_bot)
+
+
+
 
 
 
