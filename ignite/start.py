@@ -14,7 +14,7 @@ async def start(client, message):
                              """),
     time.sleep(2)   
     
-    await message.reply_text(text=f"""Send me any image format image and i will send u it's telegra.ph link""")                  
+    await message.reply_text(text=f"""Send me any image and i will send u it's telegra.ph link""")                  
                              
 
 
