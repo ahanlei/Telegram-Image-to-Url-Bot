@@ -24,7 +24,7 @@ Get the Plugins
 """
 
 plugins= dict(
-    root="workers",
+    root="ignite",
 )
 
 
