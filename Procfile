@@ -1,0 +1,1 @@
+worker: python3 image2url.py
