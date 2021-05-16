@@ -19,7 +19,7 @@ async def getimage(client, message):
     await dwn.edit_text("ETA: > sec[░░░░░░              ]")
     await dwn.edit_text("ETA: > sec[░░░░░░░░░░░░        ]")
     await dwn.edit_text("ETA: > sec[░░░░░░░░░░░░░░░░░░░░]")
-    await dwn.edit_text("Sending...")
+    await dwn.edit_text("📨Sending...")
     
     
 
@@ -31,9 +31,9 @@ async def getimage(client, message):
     await dwn.edit_text(
         text=f"<b>Link :-</b> <code>https://telegra.ph{response[0]}</code>",
         disable_web_page_preview=True,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Open Link", url=f"https://telegra.ph{response[0]}"),
-                                            InlineKeyboardButton(text="Share Link", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}"),
-                                            InlineKeyboardButton(text="Group Link", url=f"https://t.me/vrtxmusic")
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🎞Open Link🎞", url=f"https://telegra.ph{response[0]}"),
+                                            InlineKeyboardButton(text="⛓Share Link⛓", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}"),
+                                            InlineKeyboardButton(text="⚙️Group Link⚙️", url=f"https://t.me/vrtxmusic")
                                             ]])
     )
 
@@ -49,7 +49,7 @@ async def getimage(client, message):
     await dwn.edit_text("ETA: > sec[░░░░░░              ]")
     await dwn.edit_text("ETA: > sec[░░░░░░░░░░░░        ]")
     await dwn.edit_text("ETA: > sec[░░░░░░░░░░░░░░░░░░░░]")
-    await dwn.edit_text("Sending...")
+    await dwn.edit_text("📨Sending...")
     
     
 
@@ -61,9 +61,9 @@ async def getimage(client, message):
     await dwn.edit_text(
         text=f"<b>Link :-</b> <code>https://telegra.ph{response[0]}</code>",
         disable_web_page_preview=True,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Open Link", url=f"https://telegra.ph{response[0]}"),
-                                            InlineKeyboardButton(text="Share Link", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}"),
-                                            InlineKeyboardButton(text="Group Link", url=f"https://t.me/vrtxmusic")
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🎞Open Link🎞", url=f"https://telegra.ph{response[0]}"),
+                                            InlineKeyboardButton(text="⛓Share Link⛓", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}"),
+                                            InlineKeyboardButton(text="⚙️Group Link⚙️", url=f"https://t.me/vrtxmusic")
                                             ]])
     )    
     
