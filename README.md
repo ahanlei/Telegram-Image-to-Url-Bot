@@ -1,9 +1,9 @@
 # Telegram-Image-to-Url-Bot
 
 [![Deploy](https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku)](https://heroku.com/deploy?template=https://github.com/mastermindvrtx/Telegram-Image-to-Url-Bot.git/tree/Vrtx)
-<img align="left" src="https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg" alt="mastermindvrtx"/>
+<img align="centre" src="https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg" alt="mastermindvrtx"/>
 <img align="centre" src="http://ForTheBadge.com/images/badges/made-with-python.svg" />
-<img align="right" src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white"/> 
+<img align="centre" src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white"/> 
 <img aligh="centre" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"/>
 
 <img aligh="centre" src="https://telegra.ph/file/15062ceef14c77176a955.jpg" align="centre"/>
